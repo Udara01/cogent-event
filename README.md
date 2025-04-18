@@ -19,7 +19,7 @@ cogent-event
 
 # ⚙️ Backend Setup
 1. Create the MySQL Database
-Create a database named cogentdb in MySQL.
+-- Create a database named cogentdb in MySQL.
 
 Create a table named registered_users.
 
@@ -32,7 +32,7 @@ If you want to make any changes to the database configuration, you can update th
 Open a terminal and navigate to the cogent-backend-server folder:
     cd cogent-backend-server
 
-Install the necessary dependencies if you haven't already:
+# --Install the necessary dependencies if you haven't already:
     npm install
 
 Start the backend server using nodemon (make sure nodemon is installed globally, or use npx):
