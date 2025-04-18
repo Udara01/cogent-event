@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve", // or "react-jsx" if you're using React 17+
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es5", // or "es6", depending on your setup
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "src/",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/styles/*": ["styles/*"],
+      "@/components/*": ["components/*"],
+      "@/data/*": ["data/*"]
+
+    }
+
+  }
+}
