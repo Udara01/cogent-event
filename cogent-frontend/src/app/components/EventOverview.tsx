@@ -49,27 +49,28 @@ export default function EventOverview() {
           viewport={{ once: false }}
           className={`space-y-6 text-2xl md:w-5/5 text-justify ${barlow.className}`}
         >
-          <p>
-            Join us on April 9th in Cairo, Egypt, for Finastra’s Universal Banking Forum,
-            "Reimagine Banking: Adapt. Evolve. Thrive." This exclusive event is designed to help
-            you navigate and excel in the rapidly evolving banking landscape.
-          </p>
-          <p>
-            Our forum will bring together business and technology experts, industry leaders, and
-            visionaries to share their insights on the latest trends and challenges in the banking
-            sector. You’ll gain valuable knowledge on topics such as Generative AI, the impact of
-            volatility, globalization challenges, persistent supply chain issues, recession threats,
-            shifts in competitive dynamics, and evolving regulations.
-          </p>
-          <p>
-            Each session will delve into the implications, challenges, and opportunities these topics
-            present, providing you with practical strategies to leverage the latest technologies and
-            capitalize on emerging opportunities.
-          </p>
-          <p>
-            Don’t miss this opportunity to enhance your knowledge, skills, and network in the finance
-            and banking sector. Register today and secure your place at this must-attend event!
-          </p>
+        <p>
+          Join us on April 9th in Cairo, Egypt, for Finastra’s Universal Banking Forum,
+          &quot;Reimagine Banking: Adapt. Evolve. Thrive.&quot; This exclusive event is designed to help
+          you navigate and excel in the rapidly evolving banking landscape.
+        </p>
+        <p>
+          Our forum will bring together business and technology experts, industry leaders, and
+          visionaries to share their insights on the latest trends and challenges in the banking
+          sector. You’ll gain valuable knowledge on topics such as Generative AI, the impact of
+          volatility, globalization challenges, persistent supply chain issues, recession threats,
+          shifts in competitive dynamics, and evolving regulations.
+        </p>
+        <p>
+          Each session will delve into the implications, challenges, and opportunities these topics
+          present, providing you with practical strategies to leverage the latest technologies and
+          capitalize on emerging opportunities.
+        </p>
+        <p>
+          Don’t miss this opportunity to enhance your knowledge, skills, and network in the finance
+          and banking sector. Register today and secure your place at this must-attend event!
+        </p>
+
         </motion.div>
       </div>
 
