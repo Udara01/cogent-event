@@ -1,13 +1,13 @@
-Cogent Event - Setup Guide
+# Cogent Event - Setup Guide
 This project is a simple web application built with Next.js, Tailwind CSS, Express.js, Node.js, and MySQL.
 
 🖥️ Frontend Technologies
-Next.js (React-based framework)
+    Next.js (React-based framework)
 
 Tailwind CSS (Utility-first CSS framework)
 
 🗄️ Backend Technologies
-Express.js (Node.js framework for building APIs)
+    Express.js (Node.js framework for building APIs)
 
 Node.js
 
