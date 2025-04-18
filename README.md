@@ -1,26 +1,23 @@
 # Cogent Event - Setup Guide
 This project is a simple web application built with Next.js, Tailwind CSS, Express.js, Node.js, and MySQL.
 
-🖥️ Frontend Technologies
+# 🖥️ Frontend Technologies
     Next.js (React-based framework)
+    Tailwind CSS (Utility-first CSS framework)
 
-Tailwind CSS (Utility-first CSS framework)
-
-🗄️ Backend Technologies
+# 🗄️ Backend Technologies
     Express.js (Node.js framework for building APIs)
+    Node.js
+    MySQL (Relational database)
 
-Node.js
-
-MySQL (Relational database)
-
-Folder Structure
-
+# Folder Structure
 cogent-event
+
 ├── cogent-backend-server      # Express.js handles the backend and database logic
 ├── cogent-frontend            # Next.js handles the frontend
 
 
-⚙️ Backend Setup
+# ⚙️ Backend Setup
 1. Create the MySQL Database
 Create a database named cogentdb in MySQL.
 
@@ -44,7 +41,7 @@ Start the backend server using nodemon (make sure nodemon is installed globally,
 The backend server will now be running, and it will handle API requests and interact with the database.
 
 
-🌐 Frontend Setup
+# 🌐 Frontend Setup
 1. Install Frontend Dependencies
 Open a terminal and navigate to the cogent-frontend folder:
     cd cogent-frontend
@@ -60,7 +57,7 @@ This will start the frontend server, and you should see the application running 
 
 
 
-🌍 Access the Application
+# 🌍 Access the Application
 Once both the frontend and backend servers are running, open your browser and visit:
 
 http://localhost:3000/ - This will show the landing page.
