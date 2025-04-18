@@ -48,8 +48,7 @@ export const agendaItems = [
       time: '12:00 PM',
       title: 
         'Coffee Break & Networking',
-      speaker: 
-        '   ',
+
     },
 
     {

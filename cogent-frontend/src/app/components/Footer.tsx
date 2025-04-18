@@ -126,16 +126,16 @@ export default function Footer() {
         <div className="mt-12 border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-center md:justify-between gap-4 text-lg text-gray-400 px-4 md:px-20">
           <span className="md:ml-10">© 2025 Cogent Solutions Event Management LLC. All Rights Reserved</span>
           <div className="flex gap-4 md:mr-10">
-            <a href="#" aria-label="LinkedIn" className="hover:text-white">
+            <a href="https://www.linkedin.com/company/cogent-solutions-event-management/mycompany/" aria-label="LinkedIn" className="hover:text-white">
               <Linkedin />
             </a>
-            <a href="#" aria-label="Facebook" className="hover:text-white">
+            <a href="https://www.facebook.com/cseventsuae/" aria-label="Facebook" className="hover:text-white">
               <Facebook />
             </a>
-            <a href="#" aria-label="Instagram" className="hover:text-white">
+            <a href="https://www.instagram.com/cs_event_management/" aria-label="Instagram" className="hover:text-white">
               <Instagram />  
             </a>
-            <a href="#" aria-label="Twitter" className="hover:text-white">
+            <a href="https://twitter.com/cseventsdxb" aria-label="Twitter" className="hover:text-white">
               <Twitter />
             </a>
           </div>

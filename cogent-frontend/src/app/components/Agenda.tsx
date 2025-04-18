@@ -46,8 +46,13 @@ export default function Agenda() {
           variants={itemVariants}
           className="flex items-start gap-10 border-b-2 border-pink-500 to-purple-800 pb-10"
         >
-          <div className="w-24 text-right text-[20px] font-semibold text-gray-700">
-            {item.time}
+          <div className="w-24 text-right text-[20px] font-semibold text-gray-700 flex flex-col items-end">
+            <span>{item.time}</span>
+            {item.title.toLowerCase().includes('registration') && (
+              <span className="mt-2 bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">
+                Registration
+              </span>
+            )}
           </div>
 
           <div className="flex-1">
@@ -55,9 +60,11 @@ export default function Agenda() {
               {item.title}
             </div>
             {item.speaker && (
-              <p className="text-base text-gray-600 whitespace-pre-line mt-1">
-                {item.speaker}
-              </p>
+              <ul className="text-base text-gray-600 mt-1 space-y-1 list-disc pl-5">
+                {item.speaker.split('\n').map((speaker, i) => (
+                  <li key={i}>{speaker.trim()}</li>
+                ))}
+              </ul>
             )}
           </div>
         </motion.div>
