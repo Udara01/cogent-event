@@ -43,8 +43,8 @@ The backend server will now be running, and it will handle API requests and inte
 
 # 🌐 Frontend Setup
 1. Install Frontend Dependencies
-Open a terminal and navigate to the cogent-frontend folder:
-    cd cogent-frontend
+<h2> Open a terminal and navigate to the cogent-frontend folder:</h2>  
+    --cd cogent-frontend
 
 Install the required dependencies, including Next.js and Tailwind CSS:
     npm install
